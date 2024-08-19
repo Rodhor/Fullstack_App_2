@@ -1,5 +1,6 @@
 import { Container, Stack, Text } from "@chakra-ui/react";
 import Navbar from "./components/Navbar";
+import UserGrid from "./components/UserGrid";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           </Text>
           🚀
         </Text>
+        <UserGrid />
       </Container>
     </Stack>
   );
